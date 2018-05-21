@@ -18,7 +18,7 @@ WebSocket connection to 'wss://underworld.loki.com/common/real-time/common?id=6Z
 * Host: `AWS`
 * Browser on the client: `Chrome`
 
-## Need Additional Info
+## Additional Info
 If you need additional info do not hesitate to contact me.
 
 
