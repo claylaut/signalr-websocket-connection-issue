@@ -17,7 +17,6 @@
     </div>
 
     <h2>Note</h2>
-    <div>Sometimes you need to press connect around 1 to 15 times to be able to connect successfully.</div>
     <div>This sample was copied from: <a href="https://github.com/aspnet/SignalR/blob/dev/samples/SignalRSamples/wwwroot/streaming.html">Signalr Official samples</a></div>
     <h2>Results</h2>
     <ul id="resultsList"></ul>
@@ -49,8 +48,8 @@
             click("connectButton", function () {
                 connection = new signalR.HubConnectionBuilder()
                     .configureLogging(signalR.LogLevel.Trace)
-                   //.withUrl("http://localhost:62551/real-time/common", transportType)
-                    .withUrl("https://underworld.loki.com/common/real-time/common", transportType)
+                   //.withUrl("http://localhost:62551/real-time/magic", transportType)
+                    .withUrl("https://underworld.loki.com/common/real-time/magic", transportType)
                     .build();
 
                 connection.onclose(function (err) {
